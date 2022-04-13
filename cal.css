@@ -1,0 +1,14 @@
+h1{
+    background-color: blue;
+    color: black;
+}
+#num{
+    width:100px;
+    height: 50px;
+    color: aqua;
+    border:100px;
+    margin:30px;
+    display: flex;
+    
+    
+}
