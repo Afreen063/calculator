@@ -1,14 +1,40 @@
-h1{
-    background-color: blue;
-    color: black;
+.container{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border: solid black;
+    
+    display: grid;
+    grid-template-rows: 10% 30% 60%;
+    grid-template-areas: "h h h h"
+    "b b b b"
+    "s s f f";
+
+    
 }
-#num{
-    width:100px;
-    height: 50px;
-    color: aqua;
-    border:100px;
-    margin:30px;
-    display: flex;
-    
-    
+   
+.item-1{
+    color: aquamarine;
+    background-color: blue;
+    border: solid red;
+    text-align: center;
+    font-size: 40px;
+    grid-area: h ;
+}
+.item-2{
+    background-color: white;
+    border: solid 10px blueviolet;
+    grid-area: b ;
+}
+.item-3{
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-area: s;
+}
+.item-4{
+     background-color: lavender;
+     display: grid;
+     grid-template-columns: auto auto;
+    grid-area: f;
 }
