@@ -24,6 +24,7 @@
 .item-2{
     background-color: white;
     border: solid 10px blueviolet;
+    text-align: end;
     grid-area: b ;
 }
 .item-3{
