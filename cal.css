@@ -25,17 +25,29 @@
     background-color: white;
     border: solid 10px blueviolet;
     text-align: end;
+    font-size: 20px;
     grid-area: b ;
 }
 .item-3{
     background-color: lightblue;
     display: grid;
-    grid-template-columns: 31% 31% 31%;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10px;
     grid-area: s;
+}
+button{
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+}
+button:active{
+    transform: rotateY(3px);
+    background-color: aqua;
+    
 }
 .item-4{
      background-color: lavender;
      display: grid;
      grid-template-columns: auto auto;
+     grid-gap: 10px;
     grid-area: f;
 }

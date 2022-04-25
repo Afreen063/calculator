@@ -45,5 +45,9 @@ function operation()
     }
     } );
 }
+$('.ac').on('click',()=>{
+    $('.item-2 span').text(0);
+    num1=0;num2=0;op=0;
+})
 
 
